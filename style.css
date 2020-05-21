@@ -11,13 +11,11 @@ body {
 }
 
 
-
 ul, li {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 
 a {
     text-decoration: none;
@@ -26,7 +24,7 @@ a {
 
 .header {
     background: url(../img/about.jpg) no-repeat center top/cover;
-    height: 100%;
+    min-height: 100%;
     outline: none;
 }
 
@@ -35,13 +33,12 @@ a {
     max-width: 600px;
     width: 100%;
     margin: 0 auto;
-    padding: 0px 15px;
 }
 
 
 .header__nav-row {
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 80px;
+    padding-bottom: 120px;
 }
 
 
@@ -64,14 +61,13 @@ a {
 
 .header__nav-link {
     text-transform: uppercase;
-    line-height: 1;
+    line-height: 24px;
     font-weight: 600;
     font-size: 18px;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     transition: 0.10s linear;
-    max-width: 335px;
-    margin: auto 30px;
+    margin-right: 50px;
 }
 
 
@@ -90,10 +86,10 @@ a {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 1.5;
+    line-height: 2.1;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    padding-top: 50px;
+    margin-top: 0;
 }
 
 
@@ -104,9 +100,9 @@ a {
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
-    line-height: 1;
+    line-height: 24px;
     text-align: center;
-    padding-top: 30px;
+    margin-top: 0;
 }
 
 
@@ -122,28 +118,26 @@ a {
 }
 
 
-.header__button {
+.header__btn  {
     text-align: center;
-    margin-bottom: 115px;
-    transition: 0.20s linear;
-    padding-top: 40px;
+    padding: 50px;
 }
 
-
-.header__button a {
-    display: inline-block;
-    padding: 20px 65px 50px;
-    color: #fff;
+.header__btn a {
+    border-radius: 50px;
+    padding: 20px 60px 50px;
     font-size: 20px;
     font-weight: bold;
     line-height: 24px;
     height: 50px;
+    color: #fff;
     background-color: #50c3af;
-    border-radius: 50px;
+    display: inline-block;
+    transition: 0.20s linear;
 }
 
 
-.header__button a:hover {
+.header__btn a:hover {
     color: darkcyan;
 }
 
@@ -156,7 +150,7 @@ a {
 .services__row-hed {
     display: flex;
     justify-content: center;
-    padding: 50px 0px 50px;
+    padding-top: 80px;
 }
 
 
@@ -197,11 +191,11 @@ img.icon-3 {
     line-height: 24px;
     text-align: center;
     text-transform: uppercase;
+    margin-top: 0;
 }
 
 
 .services__text {
-    margin-bottom: 15px;
     color: #787b80;
     font-weight: 400;
     font-size: 18.7px;
@@ -212,14 +206,13 @@ img.icon-3 {
 
 .about {
     background-color: #eeeeef;
-    padding: 0px 15px;
 }
 
 
 .about__column-top {
     display: flex;
     justify-content: center;
-    padding-top: 130px;
+    padding-top: 170px;
 }
 
 
@@ -258,18 +251,12 @@ img.icon-3 {
     font-size: 18.7px;
     line-height: 1.7;
     font-weight: normal;
-    margin-bottom: 38px;
+    margin-bottom: 45px;
 }
 
 
 .about__btn {
     display: inline-block;
-    border-radius: 50px;
-    text-align: center;
-    transition: 0.20s linear;
-}
-
-.about__btn a {
     padding: 10px 30px 40px;
     height: 35px;
     font-weight: 700;
@@ -277,9 +264,12 @@ img.icon-3 {
     font-size: 20px;
     line-height: 24px;
     background-color: #50c3af;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.20s linear;
 }
 
-.about__btn a:hover {
+.about__btn:hover {
     color: darkcyan;
 }
 
@@ -304,7 +294,6 @@ img.icon-3 {
     line-height: 1.4;
     margin-bottom: 40px;
 }
-
 
 
 .content__image {
@@ -392,7 +381,7 @@ img.icon-3 {
 .wrrap__status-info {
     display: flex;
     justify-content: center;
-    padding-top: 135px;
+    padding-top: 150px;
 }
 
 .wrrap__status {
@@ -414,24 +403,18 @@ img.icon-3 {
     top: 10px;
     right: 10px;
     position: relative;
-
 }
 
 .wrrap__text {
     color: #787b80;
     font-size: 18.7px;
     line-height: 1.7;
-    margin-bottom: 48px;
+    margin-bottom: 45px;
 }
 
-.wrrap__btn {
+
+.wrrap__btn  {
     display: inline-block;
-    border-radius: 50px;
-    text-align: center;
-    transition: 0.20s linear;
-}
-
-.wrrap__btn a {
     padding: 10px 30px 40px;
     height: 35px;
     font-weight: 700;
@@ -439,9 +422,12 @@ img.icon-3 {
     font-size: 20px;
     line-height: 24px;
     background-color: #50c3af;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.20s linear;
 }
 
-.wrrap__btn a:hover {
+.wrrap__btn:hover {
     color: darkcyan;
 }
 
@@ -453,7 +439,7 @@ img.icon-3 {
 .ittem__top-word {
     display: flex;
     justify-content: center;
-    padding-top: 120px;
+    padding-top: 180px;
 }
 
 
@@ -461,7 +447,6 @@ img.icon-3 {
     max-width: 100%;
     margin: auto 35px;
 }
-
 
 
 .ittem__top {
@@ -509,15 +494,16 @@ img.icon-3 {
     color: #40474e;
     font-size: 24px;
     text-transform: uppercase;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
+    margin-top: 0;
 }
 
 .ittem__text {
     color: #787b80;
     font-size: 18.7px;
     line-height: 1.7;
-    margin-bottom: 135px;
 }
+
 
 .prom {
     background-color: #50c3af;
@@ -539,6 +525,16 @@ img.icon-3 {
     width: 22px;
 }
 
+.prom__icon::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 332px;
+    top: 30px;
+    top: 45px;
+    border: 1.5px solid #61c8b6;
+}
+
 
 .prom__title {
     margin-bottom: 80px;
@@ -552,17 +548,6 @@ img.icon-3 {
 
 .prom__title:last-child {
     margin-top: 0;
-}
-
-
-.prom__icon::before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 332px;
-    top: 30px;
-    top: 45px;
-    border: 1.5px solid #61c8b6;
 }
 
 
