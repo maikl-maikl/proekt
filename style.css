@@ -543,7 +543,6 @@ img.icon-3 {
     color: #fff;
     font-weight: 700px;
     text-transform: uppercase;
-    position: relative;
 }
 
 .prom__title:last-child {
@@ -596,11 +595,12 @@ img.icon-3 {
 
 
 .footer__social {
-   margin-right: 40px;
+    margin-right: 40px;
 }
 
 
 .footer__social a {
+    transition: 0.10s linear;
     color: #b5b7b9;
     font-size: 20px;
     margin: auto 10px;
@@ -610,7 +610,9 @@ img.icon-3 {
     margin-right: 0;
 }
 
-
+.footer__social a:hover {
+    opacity: 0.80;
+}
 
 
 
