@@ -38,16 +38,15 @@ h1,h2,h3,h4,h5,h6 {
 .header__nav-row {
     padding-top: 80px;
     padding-bottom: 100px;
-    max-width: 100%;
 }
 
 
 .header__logo {
     margin-bottom: 50px;
-    text-align: center;
     font-size: 70px;
     line-height: 1.8;
     color: #fff;
+    text-align: center;
     font-family: "Brush Script MT";
 }
 
@@ -83,6 +82,7 @@ h1,h2,h3,h4,h5,h6 {
 .header__center {
      text-align: center;
      padding-bottom: 100px;
+     max-width: 100%;
 }
 
 
@@ -206,7 +206,7 @@ img.icon-3 {
 }
 
 
-.services__text p:last-child{
+.services__text p:last-child {
     margin-top: 0;
 }
 
@@ -490,27 +490,16 @@ img.icon-3 {
     width: 365px;
     height: auto;
     cursor: pointer;
+    transition: 0.50s linear;
 }
 
 .ittem__top img.ittem__photo-1 {
     opacity: 0;
-    filter: alpha(opacity=0);
 }
 
-.ittem__top:hover img.ittem__photo-1 {
+.ittem__top img.ittem__photo-1:hover {
     opacity: 1;
-    filter: alpha(opacity=100);
 }
-
-.ittem__top:hover img.ittem__photo-2:hover {
-    opacity: 0;
-    filter: alpha(opacity=0);
-}
-
-
-.ittem__top img {
-     transition: all 1s;
- }
 
 
 .ittem__title {
@@ -617,8 +606,13 @@ img.icon-3 {
 }
 
 
-.footer__text b  {
-    color: #b9bbbd;
+.footer--tait  {
+    color: #aaacaf;
+    text-decoration: none;
+}
+
+.footer--tait:hover {
+    text-decoration: underline;
 }
 
 
